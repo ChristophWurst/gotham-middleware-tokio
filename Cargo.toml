@@ -1,0 +1,14 @@
+[package]
+name = "gotham-middleware-tokio"
+version = "0.1.0"
+authors = ["Christoph Wurst <christoph@winzerhof-wurst.at>"]
+
+[dependencies]
+gotham = { path = "../gotham" }
+gotham_derive = { path = "../gotham/gotham_derive" }
+tokio-core = "*"
+
+[dev-dependencies]
+futures = "*"
+hyper = "0.11"
+mime = "*"
