@@ -4,8 +4,8 @@ version = "0.1.0"
 authors = ["Christoph Wurst <christoph@winzerhof-wurst.at>"]
 
 [dependencies]
-gotham = { path = "../gotham" }
-gotham_derive = { path = "../gotham/gotham_derive" }
+gotham = { git = "https://github.com/gotham-rs/gotham" }
+gotham_derive = { git = "https://github.com/gotham-rs/gotham" }
 tokio-core = "*"
 
 [dev-dependencies]
